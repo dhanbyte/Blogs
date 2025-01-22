@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import ReactQuill from 'react-quill';
+import ReactQuill from "react-quill";
+// import ReactQuill from 'react-quill';
 
 export default function Write() {
   return (
