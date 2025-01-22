@@ -2,8 +2,6 @@
 import React from "react";
 import ReactQuill from 'react-quill';
 
-
-
 export default function Write() {
   return (
     <div className="h-[calc(100vh-64px)] md:h-[calc(100vh-80px)] flex flex-col gap-6 ">
