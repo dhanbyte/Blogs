@@ -1,4 +1,3 @@
-import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
@@ -59,9 +58,9 @@ if (!PUBLISHABLE_KEY) {
 
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  
      <ClerkProvider publishableKey={PUBLISHABLE_KEY} afterSignOutUrl="/">
     <RouterProvider router={router} />
     </ClerkProvider>
-  </StrictMode>,
+ 
 )
