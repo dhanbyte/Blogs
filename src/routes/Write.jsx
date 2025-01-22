@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
+// import ReactQuill from "react-quill";
 
 export default function Write() {
   return (
@@ -23,7 +24,8 @@ export default function Write() {
 
         </div>
         <textarea className="p-4 rounded-xl bg-white shadow-md" name="desc" placeholder="Write a brief description about your story"></textarea>
-        {/* <ReactQuill className="flex-1 p-2 rounded-xl  bg-white shadow-md" theme="snow"   /> */}
+        {/* <ReactQuill className="flex-1 p-2 rounded-xl  bg-white shadow-md"    />
+         */}
         <button className="rounded-xl bg-blue-800 text-white text-xl shadow-md  w-max p-2 m-4 ">Publish</button>
       </form>
     </div>
